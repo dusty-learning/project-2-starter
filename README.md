@@ -22,6 +22,14 @@ This contains pretty all of the ground level tooling you'll need, such as expres
 - Nodemon
 - dotenv (Environment variables)
 
+## Commands
+
+- `npm run dev` runs the dev server using nodemon
+- `npm start` runs the main node server
+- `npm run lint` runs the linter
+- `npm run fix` runs the linter and fixes auto fixable problems
+- `npm test` runs the test suite if tests exist
+
 You should be able to get started pretty quick from this point.
 
 Good luck, and have fun!
