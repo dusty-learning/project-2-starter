@@ -1,0 +1,27 @@
+:root {
+  --font: rgba(0, 0, 0, 0.65);
+  --secondary-font: rgb(220, 124, 124);
+}
+
+html {
+  background-image: url(/img/background.png);
+  height: 100%;
+}
+
+body {
+  background-color: rgba(210, 219, 226, 0.575);
+  color: var(--font);
+  min-height: 100%;
+  margin: 0;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+.wrapper {
+  width: 50%;
+  margin: auto;
+  padding: 2rem;
+  text-align: center;
+}
