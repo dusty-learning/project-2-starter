@@ -17,6 +17,7 @@ This contains pretty all of the ground level tooling you'll need, such as expres
 - MySQL
 - EJS (Templating)
 - Tape (Testing)
+  - Test tooling is included but you'll have to setup your own tests if you want to use them
 - StandardJs (Linting)
 - Nodemon
 - dotenv (Environment variables)
