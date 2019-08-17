@@ -7,7 +7,7 @@
     "dev": "nodemon index.js",
     "start": "node index.js",
     "lint": "standard . | snazzy",
-    "fix": "eslint --fix .",
+    "fix": "standard --fix .",
     "test": "npm run lint && tape ./tests/*.js | tap-spec"
   },
   "repository": {
