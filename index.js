@@ -13,7 +13,7 @@ app
   .set('view engine', 'ejs')
   .use(express.urlencoded({ extended: false }))
   .use(express.json())
-  .use(express.static(path.join(__dirname, 'public')))
+  .use(express.static(path.join(__dirname, 'static')))
   .use(htmlRoutes)
   .use(apiRoutes)
   .use(db)
