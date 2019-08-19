@@ -7,7 +7,11 @@ const opts = process.env.JAWSDB_URL || {
   database: 'chicken_chasers'
 }
 
-const connection = mysql.createConnection(opts)
+const connection = mysql.createConnection(opts).connect(err => {
+  if (err) {
+    throw err
+  }
+})
 
 // Very simple and dumb middleware that attaches the open mysql connection to the request object
 // This means you can do req.connection.query now
