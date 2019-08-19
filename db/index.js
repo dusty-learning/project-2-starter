@@ -7,7 +7,9 @@ const opts = process.env.JAWSDB_URL || {
   database: 'chicken_chasers'
 }
 
-const connection = mysql.createConnection(opts).connect(err => {
+const connection = mysql.createConnection(opts)
+
+connection.connect(err => {
   if (err) {
     throw err
   }
